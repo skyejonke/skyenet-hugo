@@ -1,0 +1,41 @@
+baseurl                  = "https://skyenet.online"           # Your domain name
+languageCode             = "en-us"
+defaultContentLanguage   = "en"
+isMultilingual           = false
+title                    = "Skyenet"
+theme                    = "sam"
+pygmentsStyle            = "monokai"                        # https://help.farbox.com/pygments.html
+pygmentsCodefences       = true
+# googleAnalytics        = ""                               # Tracking code, eg. "UA-111111111-1"
+
+[params]
+    dateform             = "Mon Jan 02, 2006"
+    dateformfull         = "Mon Jan 2 2006 15:04:05 EST"
+    favicon              = "sam.ico"
+    homepage             = "main"                           # What to call the home page link, link will not be rendered if empty
+    footerText           = "Come Join The Pink"
+
+# Metadata for Open Graph and Twitter
+    description          = "Come Join The Pink"               # Max 160 characters show in search results
+    images               = ["tn.png"]                       # Image that shows on Twitter cards and Open Graph links to the site
+    title                = "Skyenet"
+    # rss                = ""
+
+[[params.mainMenu]]
+    link = "poems"
+    text = "poems"
+
+[[params.mainMenu]]
+    link = "projects"
+    text = "projects"
+
+[[params.mainMenu]]
+    link = "about"
+    text = "about"
+
+[[params.mainMenu]]
+    link = "thepink"
+    text = "The Pink"
+
+[imaging]
+    quality = 75
